@@ -1,0 +1,16 @@
+{
+  "name": "pi-linux-voice",
+  "version": "1.0.0",
+  "description": "Linux microphone voice input for Pi using ffmpeg and OpenAI-compatible transcription APIs",
+  "keywords": ["pi-package", "pi-extension", "voice", "speech-to-text", "linux"],
+  "license": "MIT",
+  "type": "module",
+  "files": ["extensions", "README.md", "LICENSE"],
+  "pi": {
+    "extensions": ["./extensions/linux-voice.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
+}
